@@ -14,7 +14,7 @@ export default function App() {
     <div>
       <h1>{advice}</h1>
       <button onClick={getAdvice}>Read Advice</button>
-      <p> So far you read {count} advices </p>
+      <p> So far you read {count} advices... </p>
     </div>
   );
 }
